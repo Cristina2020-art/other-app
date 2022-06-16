@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link data-require="bootstrap@4.1.1" data-semver="4.1.1" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Aplicatie B</h1>
+    <div id="container">
+      <form>
+        <div>
+          <label for="task_des">Descriere</label>
+          <input id="task_des" type="text" />
+        </div>
+        <div>
+          <label for="task_state">State</label>
+          <input id="task_state" type="text" />
+        </div>
+        <div>
+          <button id="save_task" type="button"> Salveaza task</button>
+        </div>
+      </form>
+    </div>
+    <hr />
+    <div id="container">
+      <h2>Lista cu taskuri</h2>
+      <ul id="task_wrapper"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,32 @@
+#task_wrapper{
+    margin-left: 10px;
+  }
+  
+  #task_wrapper{
+    list-style: none;
+  }
+  #task_wrapper li{
+    padding-bottom: 5px;
+  }
+  .remove_item{
+    color: red;
+    padding: 10px 5px 10px 10px;
+    
+  }
+  
+  .clickeable{
+    cursor: pointer;
+  }
+  
+  .update_icon{
+    color: green;
+    padding: 10px 10px 10px 0;
+  }
+  
+  .show{
+    display: block;
+  }
+  
+  .hide{
+    display: none;
+  }
